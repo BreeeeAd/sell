@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* HelloWorld
+web: java -jar target/sell-application-0.0.1-SNAPSHOT.jar
