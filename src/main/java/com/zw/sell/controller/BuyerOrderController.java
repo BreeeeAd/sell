@@ -36,7 +36,7 @@ public class BuyerOrderController {
 
     //create order
     @PostMapping ("/create")
-    public ResultVO<Map<String, String>> create(
+    public ResultVO<Map<String, String>> create (
             @Valid OrderForm orderForm, BindingResult bindingResult){
         if (bindingResult.hasErrors()){
             log.error("[CREATE ORDER] incorrect input, orderForm = {}", orderForm);

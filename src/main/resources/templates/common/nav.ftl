@@ -26,7 +26,7 @@
         </li>
 
         <li>
-            <a href="/sell/seller/logout"><i class="fa fa-fw fa-list-alt"></i> Log out</a>
+            <a href="/sell/seller/logout"><i class="fa fa-fw fa-list-alt"></i>Log out</a>
         </li>
     </ul>
 </nav>

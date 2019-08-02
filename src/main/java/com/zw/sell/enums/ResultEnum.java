@@ -20,7 +20,9 @@ public enum ResultEnum {
     ORDER_CANCEL_SUCCESS(22, "success cancel order"),
     ORDER_FINISH_SUCCESS(23,"success finish order"),
     PRODUCT_STATUS_ERROR(24,"product status error"),
-    PRODUCT_STATUS_CHANGE_SUCCESS(25,"success change product status");
+    PRODUCT_STATUS_CHANGE_SUCCESS(25,"success change product status"),
+    LOGIN_FAIL(26,"login fail, login information(openid) incorrect"),
+    LOGOUT_SUCCESS(27,"successful logout");
 
     private Integer code;
 
